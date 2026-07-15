@@ -1,0 +1,946 @@
+
+<link rel="manifest" href="data:application/json;charset=utf-8,%7B%22name%22%3A%22Arviroment%22%2C%22short_name%22%3A%22Arviroment%22%2C%22start_url%22%3A%22.%22%2C%22display%22%3A%22standalone%22%2C%22background_color%22%3A%22%23121212%22%2C%22theme_color%22%3A%22%23121212%22%2C%22icons%22%3A%5B%7B%22src%22%3A%22data%3Aimage%2Fpng%3Bbase64%2CUklGRlgHAABXRUJQVlA4IEwHAADQJgCdASq6ALoAPp1OokylpKMiI9lpELATiWVu4XCBBu22vv5ngnKZ88sZj8l7wrzAecN6Od5h9ADpe8AQ7DsfvaT9b8a%2FJB4sJwjgKAak2ciKPP0A84v1f7Bn699Xb9mf%2F%2F7j37Ii9PPXGaUFPPXGaUFPPW5dM3xxv0UdoKeetzOi9lqscyaZh2MK9a%2Fn2uvRTBHwsY%2BiWtH4ti%2FiVnKdkgOzSAne3uhco6IXMUlDaZ4IjHRk%2FfhyqN7auwaoJlff3pXg8zCqJXinFc7h%2FCuUN%2FttBWrfAoxj5xEQG8ZHTkzjnidJGqd6cKuUaCHrkwMhWJ6yajwA1qWXltCOGRpldfZQN6bTdN0Ns1Q3Hj4LLgUL9fKGxFM52X1Dp1xmkra7iZy%2BTBRv6%2BQdD9LYhVXIVdX9fIPAqL9fIPAqL8IAAP7%2BjcAAJbpof7ngtIcql3zKs3seWud1PSFwJN6otgQifsviFS%2F4riaf%2FulT80FYlwQzyYD1O%2BWqEBOkdTo7wJISF0%2FnCRIMhZZfSkc45F04%2BU1LJlG%2FkY0HFCRDpdoLEsRWJs02F%2FpAIoifeUx8b%2Fmuv3L%2FsvS2Oz%2FYNwxRPrwxWhnDQs3FbaO6qQsi%2F1xfLY0YqsM0jkPcrnnma1nS8ubP8TeK7D9FRwyL1XlP8rHCgcYAqLpbJqJIVfPwFV%2FHD0ER%2F44hiKZLALejgTXqM1Y6wpIQIUXtCjrOc6KUY69stF5YgC9XwkYn%2Bt8rLQ%2FirLF9k1XCc%2BhMn254ZhkK3LLu0baDLPZtxJ%2F1DkhCRxjH3p6fj6tWFPle9r%2BDVNy7rjEuB8FUY15rNQvNFNlf0W8jUSQdM3eYSNiFkKGAmjIOdkCPQCTu0Pdp02ilFlqqcRz6nR%2F3OSrtllDM9%2BpqjtflvoPAms5Aoh3YY%2B14bu%2BLa%2FvPrPJtN6gQY%2BzmOD%2FXmXdH4lm7Mt3JWZHZ4YsWkY7YdtDfmmuKlZKeyNseUzc0GiIGfmt6VuWyu6%2FkY%2B52puyAHJQ4WUHrMoDMcihIdAnj16qhn9WltsPEW1a%2FBnIE9R6%2Bj%2FC%2BDpp0dMB43NBNnCdDqg487sV%2BS%2BR5T1yGTFMCeyNLs2sOmZv7lbqDq0nSf75ZLNO63B4xg0Pu5XiODDgqSEup34HLuofs6vREubRcWjuGiGRLVbvULUr0cKb9eR872%2F0V1Z2bTB5P%2F3uC3x3bGZBPARkNZZpOJ3ZmVdV4u%2BcGTk72DDpDtsHF2KsPj%2FK5e5jFvNVW6okdIzjq2fVzlIGbTSvFzbQRIkJ%2BvB04x%2B1tN4jGHWn5A9Pg54bluZkiDxcQTOPB10i4Y8z11A%2BYYiTQ79hFNoQ4%2FyqJIE4epKG%2FVluFuUEUKXxIkX0i%2B4hTudeETsuEBk6oCf6piZW1ancXp1HbDhsHDJe58%2BveLDeSnqIHqeV3klYy%2FD7GR5D2Tjuhx4opTsxTHMTPolAZqcJ6HOkR2pZiVl%2FF%2BJaiCNaot%2FUkXurR065wPuk2QTJ6de0AtKXMqbfFOo1BnQchFR1%2FSOJvxuxD0GbE4asv27Kpjcxh0hm08tkvDyp8tWOFE5MvLmz%2FNfxo9%2BbZWlg%2BhMG9gXUfDo0i3uO%2F%2FkH4tSx%2FDw2VUZbgM6O6kx3kD3FkbaKaoXWwGD8G7PjojXiNfjuppGM%2BKqpADXBZbqZKrzswXMHn%2BzE3yXAw7VWRtx%2BodznOpSWmbKKAslycm1x5ojiKtC82wdEci6r2Vj1mcO%2BEyx%2Fp0dipxh2etFEU8DKbPGkv%2BR2pbJS8ZRwZRIQ0jH2p9CHFoihsmZTRB%2FbPXSq5k3zufLZOpvLtQM1ZMPHsskVdNGwYm%2F2%2B%2BVYx2NLq1X3c%2BJnTF5LkEqjPFCwUDyB%2FhelhSQucxmhwQYvd6zTkDmUZk%2BW4CFZeOd4UFT07D8S2lOAUP178dfdAKbneh%2FUG8QvFVICyl6B%2FXzzi5FiuCXg0Phu4u1Wc%2Fxc3pHQbmnuWFKrj%2BdIjWK2R7jRlVSd9zCVBu6kRsejjWoW2Joy0oBhQ8psaLE2s5bvydsxHw4zJbTX3O%2Fe4WhSbjt9kxFVcxRB4b%2BHO5cHpE%2B3iIDX2XVT%2Fu0%2B2JI72CfYW2Cy%2BWo00xZ7TN7UcMObWoAvakATOa3wRyAAc9DQk1n9ydsC1sUvfsO9kLPvxk1%2BRIPYCzl1TeTN190DuA8tI4FPR76855ZiHCGCyNSKp7%2FoYY1lsavKQTHr6BYsGLBFhz%2B9U5O%2FT%2BgZgie3uuSe365s01azjRjfuAUnlvyUfaWuf5UR%2FdWNEb4h%2B6YZlFzi%2BK8IUH7tJyXKhJ6VNg%2Fb072FBlAW4T7nqDC1cnFVq9NNS%2FTBgpi%2BD2iEBcruy5RG6HGSwENGOVBsETeBCtLCl5yj0iI3xGmt8kBAYcigHl%2BkRpJfiswRdLLCkOVJUS2HS8%2Br6Bh2hhRYNnbDKZ2zFDU5%2BaWA%2FqJHPCtZQoLAg1Q3S5RtHDLnB0gAZhoy%2Bjj6wAB7XyL3KT%2FxD8AAAAA%3D%3D%22%2C%22sizes%22%3A%22512x512%22%2C%22type%22%3A%22image%2Fpng%22%7D%5D%7D">
+
+<div id="ramcast-launcher" style="position:fixed;top:0;left:0;width:100%;height:100%;background:#121212;color:#fff;font-family:sans-serif;display:flex;flex-direction:column;justify-content:center;align-items:center;z-index:999999;text-align:center;padding:20px;">
+    <img src="data:image/png;base64,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" alt="Logo" style="width:100px; height:100px; object-fit:contain; margin-bottom:20px; border-radius:16px;">
+    <h2 style="margin-bottom:25px; font-size:1.6rem;">Arviroment</h2>
+    <button onclick="lancarAppPWA()" style="background:#00ff88;color:#121212;border:none;padding:16px 40px;font-size:1.2rem;font-weight:bold;border-radius:8px;cursor:pointer;box-shadow:0 4px 15px rgba(0,255,136,0.3);">Abrir App</button>
+</div>
+
+<script>
+function lancarAppPWA() {
+    const urlAtual = window.location.href;
+    if (!window.location.search.includes('view=standalone')) {
+        const urlStandalone = urlAtual + (urlAtual.includes('?') ? '&' : '?') + 'view=standalone';
+        window.open(urlStandalone, '_blank', 'popup=yes,width=1000,height=750,resizable=yes,scrollbars=yes');
+        document.getElementById('ramcast-launcher').innerHTML = '<h2 style="color:#aaa;">Aplicativo Iniciado!</h2>';
+        setTimeout(function() { window.close(); }, 500);
+    }
+}
+
+if (window.location.search.includes('view=standalone')) {
+    document.addEventListener("DOMContentLoaded", function() {
+        const launcher = document.getElementById('ramcast-launcher');
+        if(launcher) launcher.remove();
+        document.title = "Arviroment";
+    });
+}
+</script>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arviroment · navegador leve</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      transition: background-image 0.5s ease;
+      position: relative;
+    }
+
+    /* Fundo padrão (caso a imagem não carregue) */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #f0f5ee;
+      z-index: -1;
+    }
+
+    .container {
+      max-width: 680px;
+      width: 100%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(10px);
+      padding: 30px 30px 20px;
+      border-radius: 32px;
+      box-shadow: 0 8px 40px rgba(0, 0, 0, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      position: relative;
+      z-index: 1;
+    }
+
+    .top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .url-display {
+      font-size: 0.75rem;
+      color: #3d6247;
+      background: rgba(200, 220, 190, 0.3);
+      padding: 5px 16px;
+      border-radius: 40px;
+      font-family: 'Courier New', monospace;
+      border: 1px solid #d0e2c8;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex: 1;
+      min-width: 100px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .tools-btn {
+      background: #1d3b2b;
+      border: none;
+      color: white;
+      padding: 6px 18px;
+      border-radius: 40px;
+      font-weight: 500;
+      font-size: 0.85rem;
+      cursor: pointer;
+      border: 1px solid #3a6a48;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      transition: 0.15s;
+    }
+    .tools-btn:hover {
+      background: #2a5a3a;
+      transform: scale(0.97);
+    }
+
+    .tree-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 4px 8px;
+    }
+    .tree-logo svg {
+      width: 52px;
+      height: 52px;
+      stroke: #1d3b2b;
+      stroke-width: 2.4;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .tree-logo .brand {
+      font-weight: 600;
+      font-size: 1.9rem;
+      color: #1d3b2b;
+      letter-spacing: -0.3px;
+    }
+
+    .search-box {
+      display: flex;
+      align-items: center;
+      background: white;
+      border-radius: 60px;
+      padding: 4px 6px 4px 24px;
+      width: 100%;
+      max-width: 600px;
+      border: 1px solid #c5dcc0;
+      box-shadow: 0 2px 12px rgba(0, 20, 0, 0.06);
+      transition: 0.15s;
+    }
+    .search-box:focus-within {
+      border-color: #2a7a44;
+      box-shadow: 0 0 0 4px rgba(46, 125, 78, 0.12);
+    }
+    .search-box input {
+      border: none;
+      outline: none;
+      background: transparent;
+      padding: 14px 8px;
+      font-size: 1rem;
+      width: 100%;
+      font-family: inherit;
+      color: #1a2f1f;
+    }
+    .search-box input::placeholder {
+      color: #8aab86;
+    }
+    .search-box .search-btn {
+      background: #1d3b2b;
+      border: none;
+      border-radius: 40px;
+      padding: 10px 20px;
+      color: white;
+      font-weight: 500;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: 0.15s;
+      border: 1px solid #3a6a48;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .search-box .search-btn:hover {
+      background: #2a5a3a;
+      transform: scale(0.97);
+    }
+
+    .footer {
+      margin-top: 8px;
+      color: #5a7d60;
+      font-size: 0.7rem;
+      opacity: 0.6;
+    }
+
+    /* Controles de fundo */
+    .bg-controls {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      margin-top: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .bg-controls label {
+      font-size: 0.8rem;
+      color: #1d3b2b;
+      font-weight: 500;
+      background: rgba(255,255,255,0.7);
+      padding: 4px 12px;
+      border-radius: 20px;
+      border: 1px solid #c5dcc0;
+      cursor: pointer;
+      transition: 0.15s;
+    }
+
+    .bg-controls label:hover {
+      background: rgba(255,255,255,0.9);
+    }
+
+    .bg-controls input[type="file"] {
+      display: none;
+    }
+
+    .bg-controls .url-input-group {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      flex: 1;
+      min-width: 150px;
+    }
+
+    .bg-controls .url-input-group input {
+      flex: 1;
+      padding: 4px 12px;
+      border-radius: 20px;
+      border: 1px solid #c5dcc0;
+      font-size: 0.75rem;
+      outline: none;
+      background: rgba(255,255,255,0.7);
+      min-width: 100px;
+    }
+
+    .bg-controls .url-input-group input:focus {
+      border-color: #2a7a44;
+      box-shadow: 0 0 0 3px rgba(46, 125, 78, 0.1);
+    }
+
+    .bg-controls .url-input-group button {
+      background: #1d3b2b;
+      border: none;
+      color: white;
+      padding: 4px 14px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      cursor: pointer;
+      border: 1px solid #3a6a48;
+      transition: 0.15s;
+      white-space: nowrap;
+    }
+
+    .bg-controls .url-input-group button:hover {
+      background: #2a5a3a;
+      transform: scale(0.97);
+    }
+
+    .bg-controls .reset-bg {
+      background: #1d3b2b;
+      border: none;
+      color: white;
+      padding: 4px 14px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      cursor: pointer;
+      border: 1px solid #3a6a48;
+      transition: 0.15s;
+    }
+
+    .bg-controls .reset-bg:hover {
+      background: #2a5a3a;
+      transform: scale(0.97);
+    }
+
+    /* Menu de sons */
+    .sound-menu {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      margin-top: 8px;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 8px 16px;
+      background: rgba(255,255,255,0.5);
+      border-radius: 30px;
+      border: 1px solid #d0e2c8;
+      width: 100%;
+    }
+
+    .sound-menu label {
+      font-size: 0.75rem;
+      color: #1d3b2b;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .sound-menu select {
+      padding: 3px 10px;
+      border-radius: 20px;
+      border: 1px solid #c5dcc0;
+      background: white;
+      font-size: 0.75rem;
+      color: #1d3b2b;
+      cursor: pointer;
+      outline: none;
+    }
+
+    .sound-menu select:focus {
+      border-color: #2a7a44;
+      box-shadow: 0 0 0 3px rgba(46, 125, 78, 0.1);
+    }
+
+    /* Estilos para os pop-ups (serão injetados via JS) */
+    .popup-back-btn {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #1d3b2b;
+      color: white;
+      border: none;
+      padding: 12px 28px;
+      border-radius: 60px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      cursor: pointer;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: 0.15s;
+      border: 1px solid #3a6a48;
+    }
+    .popup-back-btn:hover {
+      background: #2a5a3a;
+      transform: translateX(-50%) scale(0.97);
+    }
+    .popup-back-btn:active {
+      transform: translateX(-50%) scale(0.94);
+    }
+
+    @media (max-width: 500px) {
+      .top-bar { flex-direction: column; align-items: stretch; }
+      .tree-logo svg { width: 40px; height: 40px; }
+      .tree-logo .brand { font-size: 1.5rem; }
+      .search-box { padding: 3px 4px 3px 16px; }
+      .search-box input { font-size: 0.9rem; padding: 10px 6px; }
+      .search-box .search-btn { padding: 8px 14px; font-size: 0.8rem; }
+      .popup-back-btn { padding: 10px 20px; font-size: 0.85rem; bottom: 16px; }
+      .sound-menu { flex-direction: column; gap: 8px; padding: 12px; }
+      .bg-controls .url-input-group { min-width: 120px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Barra superior -->
+  <div class="top-bar">
+    <div class="url-display" id="urlDisplay">
+      <span>🔗</span>
+      <span id="urlText">arviroment://pesquisa</span>
+    </div>
+    <button class="tools-btn" id="toolsBtn">🛠️ Ferramentas</button>
+  </div>
+
+  <!-- Logo -->
+  <div class="tree-logo">
+    <svg viewBox="0 0 50 50">
+      <path d="M25 6 L25 16 M25 16 L15 26 L25 36 L35 26 L25 16"/>
+      <path d="M25 36 L25 44 M18 44 L32 44"/>
+      <circle cx="25" cy="11" r="3.5" stroke-width="2.2" fill="#d9e8d0"/>
+    </svg>
+    <span class="brand">Arviroment</span>
+  </div>
+
+  <!-- Pesquisa/URL -->
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Pesquisar no Bing ou digite uma URL..." autofocus>
+    <button class="search-btn" id="searchBtn">🔍 Ir</button>
+  </div>
+
+  <!-- Controles de fundo -->
+  <div class="bg-controls">
+    <label for="bgImageInput">📁 Escolher imagem</label>
+    <input type="file" id="bgImageInput" accept="image/*">
+    
+    <div class="url-input-group">
+      <input type="text" id="bgUrlInput" placeholder="URL da imagem de fundo...">
+      <button id="loadBgUrlBtn">Carregar URL</button>
+    </div>
+    
+    <button class="reset-bg" id="resetBgBtn">↺ Remover fundo</button>
+  </div>
+
+  <!-- Menu de sons -->
+  <div class="sound-menu">
+    <label>
+      ⌨️ Digitar:
+      <select id="typingSoundSelect">
+        <option value="sine">Suave</option>
+        <option value="piano">Piano</option>
+        <option value="click">Clique</option>
+        <option value="beep">Beep</option>
+        <option value="retro">Retrô</option>
+      </select>
+    </label>
+    <label>
+      🗑️ Apagar:
+      <select id="deleteSoundSelect">
+        <option value="sine">Suave</option>
+        <option value="piano">Piano</option>
+        <option value="click">Clique</option>
+        <option value="beep">Beep</option>
+        <option value="retro">Retrô</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="footer">🔍 resultados no Bing · navegação com histórico entre pop-ups</div>
+</div>
+
+<script>
+  (function() {
+    "use strict";
+
+    // ===== GERENCIADOR DE JANELAS POP-UP =====
+    const WindowManager = {
+      windows: [],
+      mainWindow: window,
+      _idCounter: 0,
+
+      open: function(url, title = 'Arviroment') {
+        this.closeCurrent();
+        const id = ++this._idCounter;
+        
+        const features = 'width=900,height=700,menubar=no,toolbar=no,location=no,status=no,scrollbars=yes,resizable=yes';
+        const popup = window.open(url, `Arviroment_${id}`, features);
+
+        if (!popup) {
+          alert('⚠️ Pop-up bloqueado! Permita pop-ups para este site.');
+          window.location.href = url;
+          return null;
+        }
+
+        const windowData = {
+          id: id,
+          window: popup,
+          url: url,
+          title: title,
+          timestamp: Date.now()
+        };
+
+        this.windows.push(windowData);
+        this._injectBackButton(popup);
+
+        const checkClosed = setInterval(() => {
+          if (popup.closed) {
+            clearInterval(checkClosed);
+            this._removeWindow(id);
+          }
+        }, 500);
+
+        return popup;
+      },
+
+      closeCurrent: function() {
+        if (this.windows.length === 0) return;
+        
+        const last = this.windows[this.windows.length - 1];
+        if (last && !last.window.closed) {
+          last.window.close();
+        }
+        this.windows.pop();
+      },
+
+      goBack: function() {
+        this.closeCurrent();
+        if (this.windows.length > 0) {
+          const last = this.windows[this.windows.length - 1];
+          if (last && !last.window.closed) {
+            last.window.focus();
+          } else {
+            this.windows.pop();
+            this.goBack();
+          }
+        } else {
+          this.mainWindow.focus();
+        }
+      },
+
+      _removeWindow: function(id) {
+        this.windows = this.windows.filter(w => w.id !== id);
+      },
+
+      _injectBackButton: function(popup) {
+        try {
+          popup.addEventListener('load', function() {
+            const btn = popup.document.createElement('button');
+            btn.innerHTML = '⬅ Voltar';
+            btn.className = 'popup-back-btn';
+            btn.style.cssText = `
+              position: fixed;
+              bottom: 24px;
+              left: 50%;
+              transform: translateX(-50%);
+              background: #1d3b2b;
+              color: white;
+              border: none;
+              padding: 12px 28px;
+              border-radius: 60px;
+              font-weight: 600;
+              font-size: 0.95rem;
+              cursor: pointer;
+              box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+              z-index: 9999;
+              display: flex;
+              align-items: center;
+              gap: 8px;
+              transition: 0.15s;
+              border: 1px solid #3a6a48;
+              font-family: inherit;
+            `;
+            
+            btn.addEventListener('mouseenter', function() {
+              this.style.background = '#2a5a3a';
+              this.style.transform = 'translateX(-50%) scale(0.97)';
+            });
+            btn.addEventListener('mouseleave', function() {
+              this.style.background = '#1d3b2b';
+              this.style.transform = 'translateX(-50%) scale(1)';
+            });
+
+            btn.addEventListener('click', function() {
+              if (window.opener && window.opener.WindowManager) {
+                window.opener.WindowManager.goBack();
+              } else {
+                window.close();
+              }
+            });
+
+            popup.document.body.appendChild(btn);
+          });
+        } catch (e) {
+          console.log('Não foi possível injetar botão no pop-up (cross-origin)');
+        }
+      }
+    };
+
+    window.WindowManager = WindowManager;
+
+    // ===== GERENCIADOR DE SONS =====
+    const SoundManager = {
+      audioContext: null,
+      typingSoundType: 'sine',
+      deleteSoundType: 'sine',
+      
+      init: function() {
+        try {
+          this.audioContext = new (window.AudioContext || window.webkitAudioContext)();
+        } catch (e) {
+          console.log('Web Audio API não disponível');
+        }
+      },
+      
+      createSound: function(type, duration = 0.1, volume = 0.15) {
+        return function() {
+          try {
+            const ctx = SoundManager.audioContext;
+            if (!ctx) return;
+            
+            const osc = ctx.createOscillator();
+            const gain = ctx.createGain();
+            osc.connect(gain);
+            gain.connect(ctx.destination);
+            
+            switch(type) {
+              case 'sine':
+                osc.type = 'sine';
+                osc.frequency.value = 400 + Math.random() * 300;
+                gain.gain.setValueAtTime(volume, ctx.currentTime);
+                gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + duration);
+                osc.start(ctx.currentTime);
+                osc.stop(ctx.currentTime + duration);
+                break;
+                
+              case 'piano':
+                osc.type = 'sine';
+                osc.frequency.value = 200 + Math.random() * 400;
+                gain.gain.setValueAtTime(volume, ctx.currentTime);
+                gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + duration * 2);
+                setTimeout(() => {
+                  try {
+                    const osc2 = ctx.createOscillator();
+                    const gain2 = ctx.createGain();
+                    osc2.connect(gain2);
+                    gain2.connect(ctx.destination);
+                    osc2.type = 'sine';
+                    osc2.frequency.value = osc.frequency.value * 2;
+                    gain2.gain.setValueAtTime(volume * 0.3, ctx.currentTime);
+                    gain2.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + duration * 1.5);
+                    osc2.start(ctx.currentTime + 0.02);
+                    osc2.stop(ctx.currentTime + duration * 1.5);
+                  } catch(e) {}
+                }, 20);
+                osc.start(ctx.currentTime);
+                osc.stop(ctx.currentTime + duration * 2);
+                break;
+                
+              case 'click':
+                osc.type = 'square';
+                osc.frequency.value = 600;
+                gain.gain.setValueAtTime(volume * 0.5, ctx.currentTime);
+                gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.05);
+                osc.start(ctx.currentTime);
+                osc.stop(ctx.currentTime + 0.05);
+                break;
+                
+              case 'beep':
+                osc.type = 'sawtooth';
+                osc.frequency.value = 800;
+                gain.gain.setValueAtTime(volume * 0.3, ctx.currentTime);
+                gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.08);
+                osc.start(ctx.currentTime);
+                osc.stop(ctx.currentTime + 0.08);
+                break;
+                
+              case 'retro':
+                osc.type = 'square';
+                osc.frequency.value = 300 + Math.random() * 200;
+                gain.gain.setValueAtTime(volume * 0.2, ctx.currentTime);
+                gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.06);
+                const lfo = ctx.createOscillator();
+                const lfoGain = ctx.createGain();
+                lfo.connect(lfoGain);
+                lfoGain.connect(osc.frequency);
+                lfo.type = 'sine';
+                lfo.frequency.value = 100;
+                lfoGain.gain.value = 50;
+                lfo.start(ctx.currentTime);
+                lfo.stop(ctx.currentTime + 0.06);
+                osc.start(ctx.currentTime);
+                osc.stop(ctx.currentTime + 0.06);
+                break;
+            }
+          } catch (e) {
+            // Ignora erro
+          }
+        };
+      },
+      
+      playTypingSound: function() {
+        const sound = this.createSound(this.typingSoundType, 0.08, 0.12);
+        sound();
+      },
+      
+      playDeleteSound: function() {
+        const sound = this.createSound(this.deleteSoundType, 0.12, 0.18);
+        sound();
+      },
+      
+      setTypingSound: function(type) {
+        this.typingSoundType = type;
+      },
+      
+      setDeleteSound: function(type) {
+        this.deleteSoundType = type;
+      }
+    };
+
+    SoundManager.init();
+
+    // ===== ELEMENTOS DA PÁGINA PRINCIPAL =====
+    const searchInput = document.getElementById('searchInput');
+    const searchBtn = document.getElementById('searchBtn');
+    const toolsBtn = document.getElementById('toolsBtn');
+    const bgImageInput = document.getElementById('bgImageInput');
+    const bgUrlInput = document.getElementById('bgUrlInput');
+    const loadBgUrlBtn = document.getElementById('loadBgUrlBtn');
+    const resetBgBtn = document.getElementById('resetBgBtn');
+    const typingSoundSelect = document.getElementById('typingSoundSelect');
+    const deleteSoundSelect = document.getElementById('deleteSoundSelect');
+    const urlText = document.getElementById('urlText');
+
+    // ===== FUNÇÃO DE NAVEGAÇÃO/PESQUISA =====
+    function navigateOrSearch(input) {
+      if (!input || input.trim() === '') {
+        input = 'Arviroment';
+      }
+      
+      const trimmed = input.trim();
+      
+      // Verifica se é uma URL
+      let isUrl = false;
+      let url = trimmed;
+      
+      // Adiciona protocolo se não tiver
+      if (!url.startsWith('http://') && !url.startsWith('https://')) {
+        // Verifica se parece uma URL (contém domínio)
+        if (url.includes('.') && !url.includes(' ')) {
+          url = 'https://' + url;
+          isUrl = true;
+        }
+      } else {
+        isUrl = true;
+      }
+      
+      // Se for URL, abre diretamente
+      if (isUrl) {
+        try {
+          // Valida a URL
+          new URL(url);
+          WindowManager.open(url, 'Navegando...');
+          urlText.textContent = url;
+          return;
+        } catch (e) {
+          // Se não for URL válida, faz pesquisa
+          isUrl = false;
+        }
+      }
+      
+      // Se não for URL ou for inválida, faz pesquisa no Bing
+      if (!isUrl) {
+        const encoded = encodeURIComponent(trimmed);
+        const bingUrl = `https://www.bing.com/search?q=${encoded}`;
+        WindowManager.open(bingUrl, 'Resultado: ' + trimmed);
+        urlText.textContent = '🔍 ' + trimmed;
+      }
+    }
+
+    // ===== EVENTOS COM SONS =====
+    let lastKeyTime = 0;
+
+    document.addEventListener('click', function(e) {
+      const target = e.target;
+      if (target.tagName === 'BUTTON' || 
+          target.closest('button') || 
+          target.closest('.search-btn') ||
+          target.closest('.tools-btn') ||
+          target.closest('.reset-bg') ||
+          target.closest('label') ||
+          target.closest('select')) {
+        SoundManager.playTypingSound();
+      }
+    });
+
+    searchInput.addEventListener('keydown', function(e) {
+      const now = Date.now();
+      if (now - lastKeyTime < 50) return;
+      lastKeyTime = now;
+      
+      if (e.key === 'Backspace' || e.key === 'Delete') {
+        SoundManager.playDeleteSound();
+      } else if (e.key.length === 1 && !e.ctrlKey && !e.metaKey && !e.altKey && e.key !== 'Enter') {
+        SoundManager.playTypingSound();
+      }
+    });
+
+    // ===== EVENTOS PRINCIPAIS =====
+    searchBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      navigateOrSearch(searchInput.value);
+    });
+
+    searchInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        navigateOrSearch(searchInput.value);
+      }
+    });
+
+    toolsBtn.addEventListener('click', () => {
+      const toolsUrl = 'https://maiomcorp-oss.github.io/MaiomCorp/';
+      WindowManager.open(toolsUrl, 'Maiom Corp - Ferramentas');
+    });
+
+    // ===== GERENCIADOR DE FUNDO =====
+    function setBackgroundImageFromData(dataUrl) {
+      if (dataUrl) {
+        document.body.style.backgroundImage = `url(${dataUrl})`;
+        document.body.style.backgroundSize = 'cover';
+        document.body.style.backgroundPosition = 'center';
+        document.body.style.backgroundRepeat = 'no-repeat';
+        document.body.style.backgroundAttachment = 'fixed';
+        localStorage.setItem('arviroment_bg', dataUrl);
+        return true;
+      }
+      return false;
+    }
+
+    function setBackgroundImageFromFile(file) {
+      if (file) {
+        if (!file.type.startsWith('image/')) {
+          alert('Por favor, selecione um arquivo de imagem válido.');
+          return false;
+        }
+        
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          setBackgroundImageFromData(e.target.result);
+        };
+        reader.onerror = function() {
+          alert('Erro ao carregar a imagem. Tente novamente.');
+        };
+        reader.readAsDataURL(file);
+        return true;
+      }
+      return false;
+    }
+
+    function setBackgroundImageFromUrl(url) {
+      if (!url || url.trim() === '') {
+        alert('Por favor, insira uma URL válida.');
+        return false;
+      }
+      
+      // Tenta carregar a imagem via URL
+      const img = new Image();
+      img.crossOrigin = 'anonymous';
+      img.onload = function() {
+        // Se carregar, usa a URL diretamente
+        document.body.style.backgroundImage = `url(${url})`;
+        document.body.style.backgroundSize = 'cover';
+        document.body.style.backgroundPosition = 'center';
+        document.body.style.backgroundRepeat = 'no-repeat';
+        document.body.style.backgroundAttachment = 'fixed';
+        localStorage.setItem('arviroment_bg_url', url);
+        localStorage.removeItem('arviroment_bg');
+        alert('✅ Imagem de fundo carregada com sucesso!');
+      };
+      img.onerror = function() {
+        alert('❌ Não foi possível carregar a imagem. Verifique a URL e tente novamente.');
+      };
+      img.src = url;
+      return true;
+    }
+
+    // Carregar fundo salvo
+    const savedBg = localStorage.getItem('arviroment_bg');
+    const savedBgUrl = localStorage.getItem('arviroment_bg_url');
+    
+    if (savedBgUrl) {
+      document.body.style.backgroundImage = `url(${savedBgUrl})`;
+      document.body.style.backgroundSize = 'cover';
+      document.body.style.backgroundPosition = 'center';
+      document.body.style.backgroundRepeat = 'no-repeat';
+      document.body.style.backgroundAttachment = 'fixed';
+    } else if (savedBg) {
+      document.body.style.backgroundImage = `url(${savedBg})`;
+      document.body.style.backgroundSize = 'cover';
+      document.body.style.backgroundPosition = 'center';
+      document.body.style.backgroundRepeat = 'no-repeat';
+      document.body.style.backgroundAttachment = 'fixed';
+    }
+
+    bgImageInput.addEventListener('change', function(e) {
+      if (this.files && this.files[0]) {
+        setBackgroundImageFromFile(this.files[0]);
+        this.value = '';
+        // Limpa URL salva
+        localStorage.removeItem('arviroment_bg_url');
+      }
+    });
+
+    loadBgUrlBtn.addEventListener('click', function() {
+      const url = bgUrlInput.value.trim();
+      if (setBackgroundImageFromUrl(url)) {
+        bgUrlInput.value = '';
+        localStorage.removeItem('arviroment_bg');
+      }
+    });
+
+    bgUrlInput.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        loadBgUrlBtn.click();
+      }
+    });
+
+    resetBgBtn.addEventListener('click', function() {
+      document.body.style.backgroundImage = 'none';
+      localStorage.removeItem('arviroment_bg');
+      localStorage.removeItem('arviroment_bg_url');
+      SoundManager.playTypingSound();
+    });
+
+    // ===== MENU DE SONS =====
+    typingSoundSelect.addEventListener('change', function() {
+      SoundManager.setTypingSound(this.value);
+      SoundManager.playTypingSound();
+    });
+
+    deleteSoundSelect.addEventListener('change', function() {
+      SoundManager.setDeleteSound(this.value);
+      SoundManager.playDeleteSound();
+    });
+
+    // ===== INICIALIZAÇÃO =====
+    console.log('🌳 Arviroment · com navegação por URL e fundo personalizável');
+    console.log('📚 Histórico de janelas:', WindowManager.windows);
+
+    window.addEventListener('beforeunload', function(e) {
+      WindowManager.windows.forEach(w => {
+        if (w.window && !w.window.closed) {
+          w.window.close();
+        }
+      });
+    });
+
+  })();
+</script>
+
+</body>
+</html>
